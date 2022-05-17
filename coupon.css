@@ -1,0 +1,38 @@
+html{
+    background-color: rgb(218, 255, 250);
+}
+a{
+    text-decoration: none;
+}
+nav ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+   } 
+
+   nav ul li  { 
+    text-decoration: none;
+    display: block; 
+    border: 3px solid; 
+    border-radius: 0.8em; 
+    padding: .5em 1em; 
+    margin: .5em; 
+    color: rgb(99, 96, 96);
+   } 
+
+   .infocoupon{
+    border: none;
+   }
+
+   fieldset{
+       color:rgb(206, 29, 29);
+   }
+   form{
+       margin-top: 100px;
+   }
+   
+   li:hover{
+       color: rgb(80, 0, 0);
+   }

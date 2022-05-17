@@ -1,0 +1,51 @@
+<form>
+    <fieldset>
+    <legend>Order Information below!</legend>
+    <ul>
+        <li><label for="custname">Name: <input type="text" name="customername" id="custname"></label></li><br>
+        <li><label for="addy">Address: <input type="text" name="address" id="addy"></label></li><br>
+        <li><label for="cell">Telephone-Number: <input type="tel" name="pnumber" id="cell"></label></li><br>
+        <li><label for="time">Time: <input type="time" name="time" id="time"></label></li><br>
+        <li><label for="date">Date: <input type="date" name="Tdate" id="date"></label></li><br>
+        <li>Delivery instructions:<br>
+            <textarea name="instructions" rows="4" cols="60" 
+            maxlength="400" placeholder="No more than 400 
+            characters long">
+            </textarea></li>
+    </ul>
+    </fieldset>
+    
+<fieldset>
+<legend>Build Your Own!</legend>
+
+<legend><b>Ahi Tuna</b></legend>
+ <li><input type="radio" name="food" value="Jalapeño" checked>Tuna</li> 
+ <li><input type="checkbox" name="hot" value="Jalapeño">Jalapeno</li> 
+ <li><input type="checkbox" name="sTuna" value="Seared Tuna">Seared Tuna</li>
+ <li><input type="checkbox" name="fries" value="Fries">Fries</li>
+ <li><input type="checkbox" name="mCheese" value="MeltedCheese">Melted Cheese</li>
+</fieldset>
+
+<fieldset>
+ <legend><b>Steak</b></legend>
+ <li><input type="radio" name="sauce" value="a1sauce" checked>A1 Sauce</li> 
+ <li><input type="checkbox" name="smoker" value="Smoked">Smoked</li> 
+ <li><input type="checkbox" name="woodburning" value="woodburning" >Wood Burning</li> 
+ <li><input type="checkbox" name="wdone" value="Welldone">Well done</li>
+ <li><input type="checkbox" name="medium" value="cooked">Medium Rare</li>
+ <li><input type="checkbox" name="rare" value="rare">Rare</li>
+</fieldset>
+
+ <label for="orders" >If you want more than one of this order please choose how many(0-6 Max limit):</label>
+ <select name="cars" id="cars">
+    <option value="o1">1</option>
+    <option value="o2">2</option>
+    <option value="o3">3</option>
+    <option value="o4">4</option>
+    <option value="o5">5</option>
+    <option value="o6">6</option>
+  </select><br>
+ 
+<input type="submit" value="Push My Order!">
+<input type="reset" value="Reset">
+</form> 

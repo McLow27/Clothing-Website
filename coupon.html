@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="coupon.css" rel="stylesheet" type="text/css">
+    <title>Westfit Clothing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,200;0,400;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <nav id = 'navigation'>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="men.html"><li>Men</li></a>
+            <a href="women.html"><li>Women</li></a>
+            <a href="sale.html"><li>Sale!</li></a>
+            <a href="aboutus.html"><li>About-Us</li></a>
+            <a href="coupon.html"><li>Coupon</li></a>
+            <a href="contact.html"><li>Contact-Us</li></a>
+    </ul>
+    <form action="mailto:moechokr27@gmail.com" method="post">
+        <fieldset>
+        <legend></legend>
+        <ul>
+            <li class="infocoupon"><label for="custname">Name: <input type="text" name="customername" id="custname"></label></li><br>
+            <li class="infocoupon"><label for="addy">Address: <input type="text" name="address" id="addy"></label></li><br>
+            <li class="infocoupon"><label for="cell">Email-Address: <input type="email" name="pnumber" id="cell"></label></li><br>
+            
+            <li class="infocoupon">Tell us how we can improve!:<br>
+                <textarea name="instructions" rows="4" cols="60" 
+                maxlength="400" placeholder="No more than 400 
+                characters long">
+                </textarea></li>
+        </ul>
+        </fieldset>
+        
+    <fieldset>
+    <legend>Choose Your Coupon!</legend>
+    
+    <legend><b>Shirts</b></legend>
+     <li><input type="checkbox" name="Coupon11" value="Coupon11">Buy 3 get the 4th one FREE</li> 
+     <li><input type="checkbox" name="Coupon111" value="Coupon111">Birthday special 50% OFF</li>
+     <li><input type="checkbox" name="Coupon1111" value="Coupon1111">Order $50+ get $10 OFF</li>
+     <li><input type="checkbox" name="Coupon11111" value="Coupon11111">20% OFF any shirt</li>
+    </fieldset>
+    
+    <fieldset>
+     <legend><b>Shorts</b></legend>
+     <li><input type="checkbox" name="shorts1" value="shorts1">Buy one get one FREE</li>
+     <li><input type="checkbox" name="shorts12" value="shorts12">Buy one get a shirt 25%</li>
+     <li><input type="checkbox" name="shorts13" value="shorts13">Buy 2 shorts get a t-shirt FREE</li> 
+     <li><input type="checkbox" name="shorts14" value="shorts14" >Sign up for Text-Message 20%</li> 
+     <li><input type="checkbox" name="shorts14" value="shorts14">Email Sign up get 35%</li>
+    </fieldset>
+    
+     <label for="orders" >Please choose how many coupons you want to apply for(0-5 Max limit):</label>
+     <select name="cars" id="cars">
+        <option value="o1">1</option>
+        <option value="o2">2</option>
+        <option value="o3">3</option>
+        <option value="o4">4</option>
+        <option value="o5">5</option>
+      </select><br>
+     
+    <input type="submit" value="Send Coupon!">
+    <input type="reset" value="Reset">
+    </form> 
+</body>
+</html>
+
